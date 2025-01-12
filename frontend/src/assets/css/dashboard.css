@@ -1,0 +1,48 @@
+/* src/assets/css/dashboard.css */
+
+/* Container for the dashboard */
+.dashboard {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+.dashboard h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styling for the buttons container */
+.dashboard-buttons {
+  margin-top: 20px;
+}
+
+/* Styling for each button */
+.dashboard-btn {
+  padding: 12px 25px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.dashboard-btn:hover {
+  background-color: #45a049;
+}
+
+/* Optional: Add some responsiveness to make buttons stack in smaller viewports */
+@media (max-width: 600px) {
+  .dashboard-btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
